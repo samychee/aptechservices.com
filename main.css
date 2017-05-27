@@ -1,0 +1,84 @@
+.clsCont {
+        FONT-FAMILY : Arial, Verdana, Helvetica, sans-serif;
+        FONT-SIZE : 9pt;
+        FONT-WEIGHT : normal;
+        COLOR : black;
+}
+
+.clsCont1 {
+        FONT-FAMILY : Arial, Verdana, Helvetica, sans-serif;
+        FONT-SIZE : 9pt;
+        FONT-WEIGHT : bold;
+        COLOR : darkgreen;
+	text-decoration:none;
+}
+
+.clsCont2 {
+        FONT-FAMILY : Arial, Verdana, Helvetica, sans-serif;
+        FONT-SIZE : 9pt;
+        FONT-WEIGHT : normal;
+        COLOR : darkgreen;
+	text-decoration:none;
+}
+
+.clsCont3 {
+        FONT-FAMILY : Arial, Verdana, Helvetica, sans-serif;
+        FONT-SIZE : 9pt;
+        FONT-WEIGHT : bold;
+        COLOR : black;
+}
+
+.clsCont4 {
+        FONT-FAMILY : Arial, Verdana, Helvetica, sans-serif;
+        FONT-SIZE : 8pt;
+        FONT-WEIGHT : bold;
+        BACKGROUND-COLOR : #eeddaa;
+        COLOR : black;
+}
+
+.clsCont5 {
+        FONT-FAMILY : Arial, Verdana, Helvetica, sans-serif;
+        FONT-SIZE : 12pt;
+        FONT-WEIGHT : bold;
+        COLOR : darkgreen;
+}
+
+.clsCont6 {
+        FONT-FAMILY : Arial, Verdana, Helvetica, sans-serif;
+        FONT-SIZE : 9pt;
+        FONT-WEIGHT : normal;
+        COLOR : black;
+	text-decoration:none;
+}
+
+.clsContB {
+        FONT-FAMILY : Arial, Verdana, Helvetica, sans-serif;
+        FONT-SIZE : 8pt;
+        FONT-WEIGHT : normal;
+        COLOR : #cccc99;
+}
+
+.clsTitle {
+        FONT-FAMILY : Arial, Verdana, Helvetica, sans-serif;
+        FONT-SIZE : 14pt;
+        FONT-WEIGHT : bold;
+        COLOR : darkgreen;
+}
+
+.clsHead {
+        FONT-FAMILY : Arial, Verdana, Helvetica, sans-serif;
+        FONT-SIZE : 10pt;
+        FONT-WEIGHT : bold;
+        COLOR : #cccc99;
+	BACKGROUND-COLOR: #5f6530;
+	TEXT-ALIGN: center;
+}
+
+.clsHead1 {
+        FONT-FAMILY : Arial, Verdana, Helvetica, sans-serif;
+        FONT-SIZE : 8pt;
+        FONT-WEIGHT : bold;
+        COLOR : black;
+        BACKGROUND-COLOR: #bdb76b;
+        TEXT-ALIGN: right;
+}
