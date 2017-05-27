@@ -23,16 +23,19 @@ var pid  = args.pid;
 var undefined;
 if (pid == undefined) pid = 1;
 
-function mail_vallidator(theForm)
+function mail_validator(theForm)
 {
-  if (theForm.eMail.value == "" || theForm.eMail.value == " " ||
-      theForm.eMail.value == "  " || theForm.eMail.value == "   ")
+  if (!theForm._replyto.value.trim())
   {
     alert("Please enter your E-Mail address.");
-    theForm.eMail.focus();
+    theForm._replyto.focus();
     return (false);
+  } else if (theForm._replyto.value !== theForm.eMailConfirm.value) {
+    alert("The given emails must match");
+    theForm.eMailConfirm.focus();
+    return (false)
   }
-  return (true);
+  return (false);
 }
 var company = "";
 var product = "";
@@ -132,7 +135,7 @@ function onProduct(obj)
   </td>
   <td width="10">&nbsp;</td>
   <td width="510">
-  <FORM NAME="MailForm" METHOD="post" ACTION="https://formspree.io/aptechsvcs@gmail.com" onSubmit="return mail_vallidator(this)"> 
+  <FORM NAME="MailForm" METHOD="post" ACTION="https://formspree.io/aptechsvcs@gmail.com" onSubmit="return mail_validator(this)">
   <input type="hidden" name="RCPT" value="aptechsvcs@gmail.com">
   <input type="hidden" name="subject" value="Request">
   <table width="540">
@@ -218,7 +221,7 @@ function onProduct(obj)
    <tr> 
     <td class="clsHead1">E-Mail</td>
     <td>
-      <input type="text" NAME="eMail" size=41 > 
+      <input type="text" NAME="_replyto" size=41 > 
     </td>
    </tr>
    <tr> 
